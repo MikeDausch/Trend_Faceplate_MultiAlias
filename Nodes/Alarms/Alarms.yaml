@@ -1,0 +1,41 @@
+Name: Alarms
+Id: g=3293e7cd8de0bb06cc725e017a984470
+Type: AlarmsCategoryFolder
+Children:
+- Name: ImportAndExportAlarms
+  Id: g=812a6f0e74294963596c8603a619545d
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Id: g=f39f87c8223e993c04e1ca4d04db6b42
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: ImportAlarms
+    Id: g=29bbf7f16e76d9df8be9e95eec8470f9
+  - Class: Method
+    Name: ExportAlarms
+    Id: g=c545013440881c693a0a2ed163e38f9f
+  - Name: CSVPath
+    Id: g=da302970f2c176be3754f5700edb910b
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: ""
+  - Name: CharacterSeparator
+    Id: g=edba47886c9312e02c82701ab3c9e17f
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ","
+  - Name: WrapFields
+    Id: g=86c5557cf525636beb191766dac4aec3
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: MessageAsTranslationKey
+    Id: g=0c09e113518c1b90bf8fbfc8ab047ee2
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- File: AlarmsWithEmailNotification1/AlarmsWithEmailNotification1.yaml

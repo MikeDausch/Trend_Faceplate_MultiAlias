@@ -1,0 +1,358 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: MotorVFD
+  Id: g=6c4b9ee820188d63f4046d7c2ee9668f
+  Supertype: BaseObjectType
+  Children:
+  - Name: Cmd_Start
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Cmd_Stop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Cmd_Reset
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Cmd_Speed
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+    - Name: EngineeringUnits
+      Type: EUInformationType
+      DataType: EUInformation
+      ModellingRule: Optional
+      Children:
+      - Name: UnitId
+        Type: BaseVariableType
+        DataType: Int32
+        ReferenceType: HasProperty
+        Value: 4740186
+      - Name: DisplayName
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Description
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+  - Name: Sts_Speed
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+    - Name: EngineeringUnits
+      Type: EUInformationType
+      DataType: EUInformation
+      ModellingRule: Optional
+      Children:
+      - Name: UnitId
+        Type: BaseVariableType
+        DataType: Int32
+        ReferenceType: HasProperty
+        Value: 4740186
+      - Name: DisplayName
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Description
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../Cmd_Speed"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+  - Name: Sts_Faulted
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: MotorVFD1
+  Id: g=365d84bb1f4657f5dad9a7050ad3f005
+  Type: MotorVFD
+  Children:
+  - Name: Cmd_Start
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Cmd_Stop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Cmd_Reset
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Cmd_Speed
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+  - Name: Sts_Speed
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../Cmd_Speed"
+  - Name: Sts_Faulted
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: MotorVFD2
+  Id: g=86139043c8f72ffd89c7319a6b5685b9
+  Type: MotorVFD
+  Children:
+  - Name: Cmd_Start
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Cmd_Stop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Cmd_Reset
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Cmd_Speed
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+  - Name: Sts_Speed
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../Cmd_Speed"
+  - Name: Sts_Faulted
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: MotorVFD3
+  Id: g=df6f3e82da111e58ca6706fd820ed426
+  Type: MotorVFD
+  Children:
+  - Name: Cmd_Start
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Cmd_Stop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Cmd_Reset
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Cmd_Speed
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+  - Name: Sts_Speed
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../Cmd_Speed"
+  - Name: Sts_Faulted
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: MotorVFD4
+  Type: MotorVFD
+  Children:
+  - Name: Cmd_Start
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Cmd_Stop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Cmd_Reset
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Cmd_Speed
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+  - Name: Sts_Speed
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../Cmd_Speed"
+  - Name: Sts_Faulted
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
