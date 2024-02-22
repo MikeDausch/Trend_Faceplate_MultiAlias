@@ -2133,6 +2133,10 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{MotorVFD_Alias_Trend}@BrowseName"
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Class: Reference
       Target: ns=5;i=1129
       Direction: Forward
@@ -2270,12 +2274,3 @@ Children:
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/DataLogger"
-  - Name: Ali_Data
-    Type: Alias
-    DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
-    Children:
-    - Name: Kind
-      Type: PropertyType
-      DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
