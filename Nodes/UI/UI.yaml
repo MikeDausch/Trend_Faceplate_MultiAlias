@@ -1,83 +1,6 @@
 Name: UI
 Type: UICategoryFolder
 Children:
-- Name: UISession1
-  Id: g=fcec7e3bc3086799b1d29aca64b34baf
-  Supertype: UISession
-  Children:
-  - Name: IsInteractive
-    Type: BaseDataVariableType
-    DataType: Boolean
-    AccessLevel: Read
-    Value: true
-  - Name: IsNative
-    Type: BaseDataVariableType
-    DataType: Boolean
-    AccessLevel: Read
-    Value: false
-  - Name: IsWeb
-    Type: BaseDataVariableType
-    DataType: Boolean
-    AccessLevel: Read
-    Value: false
-  - Name: IpAddress
-    Type: BaseDataVariableType
-    DataType: String
-    AccessLevel: Read
-    Value: ""
-  - Name: User
-    Type: NodePointer
-    DataType: NodeId
-    AccessLevel: Read
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
-    Children:
-    - Name: Kind
-      Type: PropertyType
-      DataType: NodeId
-      Value: "/Types/ObjectTypes/BaseObjectType/UserType"
-  - Name: ActualLocaleId
-    Type: BaseVariableType
-    DataType: LocaleId
-    ReferenceType: HasProperty
-    Value: ""
-  - Name: ActualLanguage
-    Type: BaseVariableType
-    DataType: LocaleId
-    ReferenceType: HasProperty
-    Value: ""
-  - Name: ActualMeasurementSystem
-    Type: BaseVariableType
-    DataType: MeasurementSystem
-    ReferenceType: HasProperty
-    Value: 0
-  - Name: TimeZoneOffset
-    Type: BaseVariableType
-    DataType: TimeZoneDataType
-    ReferenceType: HasProperty
-    AccessLevel: Read
-  - Name: Groups
-    Type: BaseObjectType
-  - Name: Roles
-    Type: BaseObjectType
-  - Name: Rights
-    Type: BaseObjectType
-  - Class: Reference
-    Target: ns=1;i=146
-    Direction: Forward
-  - Class: Reference
-    Target: ns=1;i=266
-    Direction: Forward
-  - Class: Reference
-    Target: ns=1;i=269
-    Direction: Forward
-  - Class: Reference
-    Target: ns=1;i=272
-    Direction: Forward
-  - Name: LoggedIn
-    Type: BaseVariableType
-    DataType: Boolean
-    AccessLevel: Read
-    Value: false
 - Name: MaterialDark1
   Type: StyleSheet
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -1056,6 +979,8 @@ Children:
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
+    - Name: BG
+      Type: Rectangle
     - Name: Cmd_Start
       Type: MomentaryButton
       Children:
@@ -1492,6 +1417,8 @@ Children:
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
+    - Name: BG
+      Type: Rectangle
     - Name: Cmd_Start
       Type: MomentaryButton
       Children:
@@ -1950,6 +1877,8 @@ Children:
             DataType: DynamicLinkMode
             ModellingRule: Optional
             Value: 2
+      - Name: BG
+        Type: Rectangle
       - Name: Cmd_Start
         Type: MomentaryButton
         Children:
