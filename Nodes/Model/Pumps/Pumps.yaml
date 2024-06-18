@@ -1,0 +1,12 @@
+Name: Pumps
+Type: FolderType
+Children:
+- Name: Pump_UDTInstance
+  Type: Pump_UDT
+  Children:
+  - Name: Variable1
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Variable2
+    Type: BaseDataVariableType
+    DataType: Int32

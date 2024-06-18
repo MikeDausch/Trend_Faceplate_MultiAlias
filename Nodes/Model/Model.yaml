@@ -8,19 +8,15 @@ Children:
   - Name: Cmd_Start
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Cmd_Stop
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Cmd_Reset
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Cmd_Speed
     Type: AnalogItemType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: EURange
       Type: RangeType
@@ -30,12 +26,10 @@ Children:
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
       - Name: High
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
     - Name: EngineeringUnits
       Type: EUInformationType
       DataType: EUInformation
@@ -50,16 +44,13 @@ Children:
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Description
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: Sts_Speed
     Type: AnalogItemType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: EURange
       Type: RangeType
@@ -69,12 +60,10 @@ Children:
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
       - Name: High
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
     - Name: EngineeringUnits
       Type: EUInformationType
       DataType: EUInformation
@@ -89,12 +78,10 @@ Children:
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Description
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
@@ -108,7 +95,6 @@ Children:
   - Name: Sts_Faulted
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Name_Desc
     Type: BaseDataVariableType
     DataType: String
@@ -121,19 +107,15 @@ Children:
   - Name: Cmd_Start
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Cmd_Stop
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Cmd_Reset
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Cmd_Speed
     Type: AnalogItemType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: EURange
       Type: RangeType
@@ -143,16 +125,13 @@ Children:
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
       - Name: High
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
   - Name: Sts_Speed
     Type: AnalogItemType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: EURange
       Type: RangeType
@@ -162,12 +141,10 @@ Children:
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
       - Name: High
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
@@ -175,7 +152,6 @@ Children:
   - Name: Sts_Faulted
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Name_Desc
     Type: BaseDataVariableType
     DataType: String
@@ -187,19 +163,15 @@ Children:
   - Name: Cmd_Start
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Cmd_Stop
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Cmd_Reset
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Cmd_Speed
     Type: AnalogItemType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: EURange
       Type: RangeType
@@ -209,16 +181,13 @@ Children:
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
       - Name: High
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
   - Name: Sts_Speed
     Type: AnalogItemType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: EURange
       Type: RangeType
@@ -228,12 +197,10 @@ Children:
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
       - Name: High
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
@@ -241,7 +208,6 @@ Children:
   - Name: Sts_Faulted
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Name_Desc
     Type: BaseDataVariableType
     DataType: String
@@ -253,19 +219,15 @@ Children:
   - Name: Cmd_Start
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Cmd_Stop
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Cmd_Reset
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Cmd_Speed
     Type: AnalogItemType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: EURange
       Type: RangeType
@@ -275,16 +237,13 @@ Children:
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
       - Name: High
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
   - Name: Sts_Speed
     Type: AnalogItemType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: EURange
       Type: RangeType
@@ -294,12 +253,10 @@ Children:
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
       - Name: High
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
@@ -307,7 +264,6 @@ Children:
   - Name: Sts_Faulted
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Name_Desc
     Type: BaseDataVariableType
     DataType: String
@@ -318,19 +274,15 @@ Children:
   - Name: Cmd_Start
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Cmd_Stop
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Cmd_Reset
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Cmd_Speed
     Type: AnalogItemType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: EURange
       Type: RangeType
@@ -340,16 +292,13 @@ Children:
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
       - Name: High
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
   - Name: Sts_Speed
     Type: AnalogItemType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: EURange
       Type: RangeType
@@ -359,12 +308,10 @@ Children:
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
       - Name: High
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
@@ -372,7 +319,6 @@ Children:
   - Name: Sts_Faulted
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Name_Desc
     Type: BaseDataVariableType
     DataType: String
@@ -383,19 +329,15 @@ Children:
   - Name: Cmd_Start
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Cmd_Stop
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Cmd_Reset
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Cmd_Speed
     Type: AnalogItemType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: EURange
       Type: RangeType
@@ -405,16 +347,13 @@ Children:
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
       - Name: High
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
   - Name: Sts_Speed
     Type: AnalogItemType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: EURange
       Type: RangeType
@@ -424,12 +363,10 @@ Children:
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
       - Name: High
         Type: BaseVariableType
         DataType: Double
         ReferenceType: HasProperty
-        Value: 0.0
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
@@ -437,73 +374,18 @@ Children:
   - Name: Sts_Faulted
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Name_Desc
     Type: BaseDataVariableType
     DataType: String
     Value: "0"
-- Name: MotorVFD6
-  Type: MotorVFD
+- File: Pumps/Pumps.yaml
+- Name: Pump_UDT
+  Id: g=cd3272a6dfa16af23f3ed076fd8b2f9d
+  Supertype: BaseObjectType
   Children:
-  - Name: Cmd_Start
+  - Name: Variable1
     Type: BaseDataVariableType
-    DataType: Boolean
-    Value: false
-  - Name: Cmd_Stop
+    DataType: Int32
+  - Name: Variable2
     Type: BaseDataVariableType
-    DataType: Boolean
-    Value: false
-  - Name: Cmd_Reset
-    Type: BaseDataVariableType
-    DataType: Boolean
-    Value: false
-  - Name: Cmd_Speed
-    Type: AnalogItemType
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: EURange
-      Type: RangeType
-      DataType: Range
-      Children:
-      - Name: Low
-        Type: BaseVariableType
-        DataType: Double
-        ReferenceType: HasProperty
-        Value: 0.0
-      - Name: High
-        Type: BaseVariableType
-        DataType: Double
-        ReferenceType: HasProperty
-        Value: 0.0
-  - Name: Sts_Speed
-    Type: AnalogItemType
-    DataType: Float
-    Value: 0.0
-    Children:
-    - Name: EURange
-      Type: RangeType
-      DataType: Range
-      Children:
-      - Name: Low
-        Type: BaseVariableType
-        DataType: Double
-        ReferenceType: HasProperty
-        Value: 0.0
-      - Name: High
-        Type: BaseVariableType
-        DataType: Double
-        ReferenceType: HasProperty
-        Value: 0.0
-    - Name: DynamicLink
-      Type: DynamicLink
-      DataType: NodePath
-      Value: "../Cmd_Speed"
-  - Name: Sts_Faulted
-    Type: BaseDataVariableType
-    DataType: Boolean
-    Value: false
-  - Name: Name_Desc
-    Type: BaseDataVariableType
-    DataType: String
-    Value: "0"
+    DataType: Int32

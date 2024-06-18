@@ -8,7 +8,6 @@ Children:
   - Name: CSVPath
     Type: BaseDataVariableType
     DataType: AbsoluteResourceUri
-    Value: ""
   - Name: FieldDelimiter
     Type: BaseDataVariableType
     DataType: String
@@ -16,7 +15,6 @@ Children:
   - Name: Table
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
       Type: PropertyType
@@ -58,15 +56,12 @@ Children:
   - Name: From
     Type: BaseDataVariableType
     DataType: DateTime
-    Value: "1601-01-01T00:00:00.0000000"
   - Name: To
     Type: BaseDataVariableType
     DataType: DateTime
-    Value: "1601-01-01T00:00:00.0000000"
   - Name: WrapFields
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
 - Name: EmbeddedDatabase1
   Id: g=e6b7c820eb1a79863625d57d29b86306
   Type: SQLiteStore
@@ -95,27 +90,21 @@ Children:
         - Name: Timestamp
           Type: StoreColumn
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: LocalTimestamp
           Type: StoreColumn
           DataType: DateTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: MotorVFD1
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: MotorVFD2
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: MotorVFD3
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: MotorVFD4
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
   - Class: Reference
     Target: ns=21;i=30
     Direction: Forward
@@ -126,19 +115,16 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MaxColumnCount
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: DataTypeCompatibilityMap
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Type: PropertyType
     DataType: StoreStatus

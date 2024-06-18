@@ -19,7 +19,6 @@ Children:
   - Name: MotorVFD_Alias
     Type: Alias
     DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
       Type: PropertyType
@@ -65,7 +64,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Boolean
       AccessLevel: Read
-      Value: false
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -104,7 +102,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Boolean
       AccessLevel: Read
-      Value: false
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -143,7 +140,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Boolean
       AccessLevel: Read
-      Value: false
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -181,7 +177,6 @@ Children:
     - Name: Value
       Type: BaseDataVariableType
       DataType: Float
-      Value: 0.0
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -196,7 +191,6 @@ Children:
     - Name: MinValue
       Type: BaseDataVariableType
       DataType: Float
-      Value: 0.0
     - Name: MaxValue
       Type: BaseDataVariableType
       DataType: Float
@@ -217,7 +211,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -239,7 +232,6 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: DynamicLink
         Type: DynamicLink
@@ -249,7 +241,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -266,7 +257,6 @@ Children:
     - Name: Active
       Type: BaseDataVariableType
       DataType: Boolean
-      Value: false
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -299,7 +289,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           ReferenceType: HasSource
-          Value: false
           Children:
           - Name: DynamicLink
             Type: DynamicLink
@@ -323,7 +312,6 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: DynamicLink
         Type: DynamicLink

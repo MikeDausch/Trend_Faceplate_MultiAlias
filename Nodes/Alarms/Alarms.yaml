@@ -22,7 +22,6 @@ Children:
     Id: g=da302970f2c176be3754f5700edb910b
     Type: BaseDataVariableType
     DataType: AbsoluteResourceUri
-    Value: ""
   - Name: CharacterSeparator
     Id: g=edba47886c9312e02c82701ab3c9e17f
     Type: BaseDataVariableType
@@ -32,10 +31,8 @@ Children:
     Id: g=86c5557cf525636beb191766dac4aec3
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: MessageAsTranslationKey
     Id: g=0c09e113518c1b90bf8fbfc8ab047ee2
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
 - File: AlarmsWithEmailNotification1/AlarmsWithEmailNotification1.yaml
